@@ -156,13 +156,14 @@ namespace The_birthday_problem
                     storyoutput.Text = "You get home that night and your dad grounds you for a month. Would u like to play again? ";
                     option1Lable.Text = "yes";
                     option2Label.Text = "no";
-                    imageBox.Image = //Properties.Resources.sadbirthday;
+                    imageBox.Image = Properties.Resources.sadbirthday;
                     break;
 
                 case 12:
                     storyoutput.Text = "your mom is upset but gives you a present anyways. would you like to play again?";
                     option1Lable.Text = "yes";
                     option2Label.Text = "no";
+                    imageBox.Image = Properties.Resources.present;
                     break;
 
                 case 13:
@@ -174,6 +175,7 @@ namespace The_birthday_problem
 
                 case 99:
                     storyoutput.Text = "Thank you for playing";
+                    imageBox.Image = Properties.Resources.thankyou;
                     Refresh();
                     Thread.Sleep(2000);
                     Close();
