@@ -32,7 +32,7 @@
             this.option1 = new System.Windows.Forms.Button();
             this.option2 = new System.Windows.Forms.Button();
             this.option1Lable = new System.Windows.Forms.Label();
-            this.option2Label = new System.Windows.Forms.Label();
+            this.option2Lable = new System.Windows.Forms.Label();
             this.imageBox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.imageBox)).BeginInit();
             this.SuspendLayout();
@@ -49,47 +49,52 @@
             // 
             // option1
             // 
-            this.option1.Location = new System.Drawing.Point(101, 388);
+            this.option1.BackColor = System.Drawing.Color.Turquoise;
+            this.option1.Location = new System.Drawing.Point(23, 382);
             this.option1.Name = "option1";
-            this.option1.Size = new System.Drawing.Size(75, 23);
+            this.option1.Size = new System.Drawing.Size(52, 34);
             this.option1.TabIndex = 2;
             this.option1.Text = "1";
-            this.option1.UseVisualStyleBackColor = true;
+            this.option1.UseVisualStyleBackColor = false;
             this.option1.Click += new System.EventHandler(this.choise1_Click);
             // 
             // option2
             // 
-            this.option2.Location = new System.Drawing.Point(492, 388);
+            this.option2.BackColor = System.Drawing.Color.Turquoise;
+            this.option2.Location = new System.Drawing.Point(363, 382);
             this.option2.Name = "option2";
-            this.option2.Size = new System.Drawing.Size(75, 23);
+            this.option2.Size = new System.Drawing.Size(57, 34);
             this.option2.TabIndex = 3;
             this.option2.Text = "2";
-            this.option2.UseVisualStyleBackColor = true;
+            this.option2.UseVisualStyleBackColor = false;
             this.option2.Click += new System.EventHandler(this.choise2_Click);
             // 
             // option1Lable
             // 
-            this.option1Lable.Location = new System.Drawing.Point(182, 391);
+            this.option1Lable.BackColor = System.Drawing.Color.Plum;
+            this.option1Lable.Location = new System.Drawing.Point(81, 382);
             this.option1Lable.Name = "option1Lable";
-            this.option1Lable.Size = new System.Drawing.Size(227, 20);
+            this.option1Lable.Size = new System.Drawing.Size(276, 34);
             this.option1Lable.TabIndex = 4;
             this.option1Lable.Click += new System.EventHandler(this.choise1output_Click);
             // 
-            // option2Label
+            // option2Lable
             // 
-            this.option2Label.Location = new System.Drawing.Point(589, 391);
-            this.option2Label.Name = "option2Label";
-            this.option2Label.Size = new System.Drawing.Size(180, 18);
-            this.option2Label.TabIndex = 5;
-            this.option2Label.Click += new System.EventHandler(this.choise2output_Click);
+            this.option2Lable.BackColor = System.Drawing.Color.Plum;
+            this.option2Lable.Location = new System.Drawing.Point(426, 382);
+            this.option2Lable.Name = "option2Lable";
+            this.option2Lable.Size = new System.Drawing.Size(320, 34);
+            this.option2Lable.TabIndex = 5;
+            this.option2Lable.Click += new System.EventHandler(this.choise2output_Click);
             // 
             // imageBox
             // 
             this.imageBox.ErrorImage = null;
+            this.imageBox.Image = global::The_birthday_problem.Properties.Resources.happy_birthday;
             this.imageBox.InitialImage = null;
-            this.imageBox.Location = new System.Drawing.Point(87, 68);
+            this.imageBox.Location = new System.Drawing.Point(87, 84);
             this.imageBox.Name = "imageBox";
-            this.imageBox.Size = new System.Drawing.Size(562, 264);
+            this.imageBox.Size = new System.Drawing.Size(510, 247);
             this.imageBox.TabIndex = 1;
             this.imageBox.TabStop = false;
             this.imageBox.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -100,7 +105,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.option2Label);
+            this.Controls.Add(this.option2Lable);
             this.Controls.Add(this.option1Lable);
             this.Controls.Add(this.option2);
             this.Controls.Add(this.option1);
@@ -121,7 +126,7 @@
         private System.Windows.Forms.Button option1;
         private System.Windows.Forms.Button option2;
         private System.Windows.Forms.Label option1Lable;
-        private System.Windows.Forms.Label option2Label;
+        private System.Windows.Forms.Label option2Lable;
     }
 }
 

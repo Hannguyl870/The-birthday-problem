@@ -98,5 +98,11 @@
   <ItemGroup>
     <None Include="Resources\present.jfif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house.jfif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
