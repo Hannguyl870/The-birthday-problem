@@ -94,25 +94,28 @@ namespace The_birthday_problem
                     option1.Text = "go with them anyways";
                     option2.Text = " go home";
 
-
+                    imageBox.Image = Properties.Resources.fair_pic;
                     break ;
 
                 case 3:
                     storyoutput.Text = "Your family forgot your birthday ";
                     option1Lable.Text = "stay home and pout";
                     option2Label.Text = " call your friends again";
+                    imageBox.Image = Properties.Resources.sadbirthday;
                     break;
 
                 case 4:
                     storyoutput.Text = "You go to the fair and they all leave you behind.Would yo like to play again?";
                     option1.Text = "yes";
                     option2.Text = "no";
+                    imageBox.Image = Properties.Resources.sadbirthday;
                     break;
 
                 case 5:
                     storyoutput.Text = "Your friends take you aout to eat but while your out your mom calls";
                     option1Lable.Text = "answer her call";
                     option2Label.Text = "ignore her call";
+                    imageBox.Image = Properties.Resources.phone_ringing;
                     break;
 
                 case 6:
@@ -123,33 +126,37 @@ namespace The_birthday_problem
                     break;
 
                 case 7:
-                    storyoutput.Text = "They didn't actually forget they were planning a surprise party . would you like to play again?";
+                    storyoutput.Text = "They didn't actually forget they were planning a surprise party. would you like to play again?";
                     option1Lable.Text = "yes";
                     option2Label.Text = "No";
+                    imageBox.Image = Properties.Resources.happy_birthday;
                     break;
 
                 case 8:
                     storyoutput.Text = "Your mom grounds you for lying.Would u like to play again?";
                     option1Lable.Text = "yes";
                     option2Label.Text = "no";
+                    imageBox.Image= Properties.Resources.sadbirthday;
                     break ;
 
                 case 9:
                     storyoutput.Text = "Your mom tells you to do the dishes and says you'll talk later. would you like to play again? ";
                     option1Lable.Text = "yes";
                     option2Label.Text = "no";
+                    imageBox.Image = Properties.Resources.sadbirthday;
                     break;
 
                 case 10:
                     storyoutput.Text = "Your mom tells you to come home ";
-                    option1Lable.Text = "go home";
-                    option2Label.Text = "ignore her ans stay ";
+                    option1Lable.Text = "Go home";
+                    option2Label.Text = "Ignore her and stay ";
                     break;
 
                 case 11:
                     storyoutput.Text = "You get home that night and your dad grounds you for a month. Would u like to play again? ";
                     option1Lable.Text = "yes";
                     option2Label.Text = "no";
+                    imageBox.Image = //Properties.Resources.sadbirthday;
                     break;
 
                 case 12:
@@ -162,6 +169,7 @@ namespace The_birthday_problem
                     storyoutput.Text = "You get home at 9 and your mom is so mad she wont even talk to you but your dad says your grounded. would you like to play again?";
                     option1Lable.Text = "yes";
                     option2Label.Text = "no";
+                    imageBox.Image = Properties.Resources.sadbirthday;
                     break;
 
                 case 99:
@@ -180,7 +188,18 @@ namespace The_birthday_problem
         {
             if (page == 1)
             {
-                page = 3;
+                Random rangen = new Random();
+                int randvalue = rangen.Next(1,11);
+
+                if (randvalue > 8)
+                {
+                    page = 7;
+                }
+                else
+                {
+                    page = 3;
+                }
+         
             }
             else if (page == 3)
             {

@@ -29,35 +29,23 @@
         private void InitializeComponent()
         {
             this.storyoutput = new System.Windows.Forms.Label();
-            this.imageBox = new System.Windows.Forms.PictureBox();
             this.option1 = new System.Windows.Forms.Button();
             this.option2 = new System.Windows.Forms.Button();
             this.option1Lable = new System.Windows.Forms.Label();
             this.option2Label = new System.Windows.Forms.Label();
+            this.imageBox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.imageBox)).BeginInit();
             this.SuspendLayout();
             // 
             // storyoutput
             // 
-            this.storyoutput.BackColor = System.Drawing.Color.MediumSpringGreen;
+            this.storyoutput.BackColor = System.Drawing.Color.Turquoise;
             this.storyoutput.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.storyoutput.Location = new System.Drawing.Point(87, 9);
             this.storyoutput.Name = "storyoutput";
             this.storyoutput.Size = new System.Drawing.Size(510, 121);
             this.storyoutput.TabIndex = 0;
             this.storyoutput.Click += new System.EventHandler(this.storyoutput_Click);
-            // 
-            // imageBox
-            // 
-            this.imageBox.ErrorImage = null;
-            this.imageBox.Image = global::The_birthday_problem.Properties.Resources.happy_birthday;
-            this.imageBox.InitialImage = null;
-            this.imageBox.Location = new System.Drawing.Point(87, 68);
-            this.imageBox.Name = "imageBox";
-            this.imageBox.Size = new System.Drawing.Size(562, 264);
-            this.imageBox.TabIndex = 1;
-            this.imageBox.TabStop = false;
-            this.imageBox.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // option1
             // 
@@ -95,10 +83,22 @@
             this.option2Label.TabIndex = 5;
             this.option2Label.Click += new System.EventHandler(this.choise2output_Click);
             // 
+            // imageBox
+            // 
+            this.imageBox.ErrorImage = null;
+            this.imageBox.InitialImage = null;
+            this.imageBox.Location = new System.Drawing.Point(87, 68);
+            this.imageBox.Name = "imageBox";
+            this.imageBox.Size = new System.Drawing.Size(562, 264);
+            this.imageBox.TabIndex = 1;
+            this.imageBox.TabStop = false;
+            this.imageBox.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.option2Label);
             this.Controls.Add(this.option1Lable);
