@@ -61,12 +61,39 @@ namespace The_birthday_problem.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream aww {
+            get {
+                return ResourceManager.GetStream("aww", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream fair_background_noise {
+            get {
+                return ResourceManager.GetStream("fair background noise", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap fair_pic {
             get {
                 object obj = ResourceManager.GetObject("fair pic", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream fireworksindistance {
+            get {
+                return ResourceManager.GetStream("fireworksindistance", resourceCulture);
             }
         }
         
@@ -111,6 +138,15 @@ namespace The_birthday_problem.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream ring {
+            get {
+                return ResourceManager.GetStream("ring", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap sadbirthday {
@@ -127,6 +163,15 @@ namespace The_birthday_problem.Properties {
             get {
                 object obj = ResourceManager.GetObject("thankyou", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream uhoh {
+            get {
+                return ResourceManager.GetStream("uhoh", resourceCulture);
             }
         }
     }

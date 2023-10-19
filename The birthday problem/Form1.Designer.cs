@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.storyoutput = new System.Windows.Forms.Label();
             this.option1 = new System.Windows.Forms.Button();
             this.option2 = new System.Windows.Forms.Button();
@@ -45,14 +46,15 @@
             this.storyoutput.Name = "storyoutput";
             this.storyoutput.Size = new System.Drawing.Size(803, 104);
             this.storyoutput.TabIndex = 0;
-            this.storyoutput.Click += new System.EventHandler(this.storyoutput_Click);
+            this.storyoutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // option1
             // 
             this.option1.BackColor = System.Drawing.Color.Turquoise;
+            this.option1.Font = new System.Drawing.Font("Mistral", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.option1.Location = new System.Drawing.Point(483, 136);
             this.option1.Name = "option1";
-            this.option1.Size = new System.Drawing.Size(57, 51);
+            this.option1.Size = new System.Drawing.Size(57, 62);
             this.option1.TabIndex = 2;
             this.option1.Text = "1";
             this.option1.UseVisualStyleBackColor = false;
@@ -61,7 +63,8 @@
             // option2
             // 
             this.option2.BackColor = System.Drawing.Color.Turquoise;
-            this.option2.Location = new System.Drawing.Point(483, 226);
+            this.option2.Font = new System.Drawing.Font("Mistral", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.option2.Location = new System.Drawing.Point(483, 288);
             this.option2.Name = "option2";
             this.option2.Size = new System.Drawing.Size(57, 61);
             this.option2.TabIndex = 3;
@@ -72,9 +75,10 @@
             // option1Lable
             // 
             this.option1Lable.BackColor = System.Drawing.Color.Plum;
+            this.option1Lable.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.option1Lable.Location = new System.Drawing.Point(546, 136);
             this.option1Lable.Name = "option1Lable";
-            this.option1Lable.Size = new System.Drawing.Size(242, 62);
+            this.option1Lable.Size = new System.Drawing.Size(242, 70);
             this.option1Lable.TabIndex = 4;
             this.option1Lable.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.option1Lable.Click += new System.EventHandler(this.choise1output_Click);
@@ -82,12 +86,12 @@
             // option2Lable
             // 
             this.option2Lable.BackColor = System.Drawing.Color.Plum;
-            this.option2Lable.Location = new System.Drawing.Point(549, 226);
+            this.option2Lable.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.option2Lable.Location = new System.Drawing.Point(549, 288);
             this.option2Lable.Name = "option2Lable";
-            this.option2Lable.Size = new System.Drawing.Size(239, 61);
+            this.option2Lable.Size = new System.Drawing.Size(239, 73);
             this.option2Lable.TabIndex = 5;
             this.option2Lable.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.option2Lable.Click += new System.EventHandler(this.choise2output_Click);
             // 
             // imageBox
             // 
@@ -112,9 +116,9 @@
             this.Controls.Add(this.option1);
             this.Controls.Add(this.imageBox);
             this.Controls.Add(this.storyoutput);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Text = "The Birthday Problem";
             ((System.ComponentModel.ISupportInitialize)(this.imageBox)).EndInit();
             this.ResumeLayout(false);
 

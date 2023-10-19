@@ -115,6 +115,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="6472607_birthday_celebration_christmas_party_trumpet_icon %281%29.ico" />
+    <None Include="Resources\256007__webcommando__fireworksindistance.wav" />
+    <None Include="Resources\124996__phmiller42__aww.wav" />
+    <None Include="Resources\518860__vahdena__aww-cute-reaction %281%29.mp3" />
+    <None Include="Resources\398979__samsterbirdies__uh-oh.wav" />
+    <None Include="Resources\275163__robotjay__phone-old-landline-ringing.wav" />
+    <None Include="Resources\686344__jasonlee3071__street-fair-background-noise %281%29.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
