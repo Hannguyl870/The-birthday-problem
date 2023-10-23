@@ -27,11 +27,11 @@ namespace The_birthday_problem
             option1Lable.Text = "plan something with your freinds";
             option2Lable.Text = "stay home";
 
-            option1.BackColor = Color.Turquoise;
+            option1.BackColor = Color.MediumTurquoise;
             option1Lable.BackColor = Color.Plum;
             option2.BackColor = Color.Turquoise;
             option2Lable.BackColor = Color.Plum;
-            storyoutput.BackColor = Color.Turquoise;
+            storyoutput.BackColor = Color.MediumTurquoise;
 
             imageBox.Image = Properties.Resources.happy_birthday;
             sp = new SoundPlayer(Properties.Resources.fireworksindistance);
@@ -60,7 +60,7 @@ namespace The_birthday_problem
 
             else if (page == 4)
             {
-                page = 1;
+                page = 6;
             }
             else if (page == 6)
             {
@@ -107,6 +107,29 @@ namespace The_birthday_problem
             {
                 page = 1;
             }
+            else if (page == 14)
+            {
+                Random rangen = new Random();
+                int randvalue = rangen.Next(1, 11);
+
+                if (randvalue > 7)
+                {
+                    page = 6;
+                }
+                else
+                {
+                    page = 15;
+                }
+
+            }
+            else if (page == 16)
+            {
+                page = 1;
+            }
+            else if (page == 15)
+            {
+                page = 7;
+            }
 
             switch (page)
             {
@@ -115,11 +138,11 @@ namespace The_birthday_problem
                     option1Lable.Text = "Plan something with your freinds";
                     option2Lable.Text = "Stay home";
 
-                    option1.BackColor = Color.Turquoise;
+                    option1.BackColor = Color.MediumTurquoise;
                     option1Lable.BackColor = Color.Plum;
-                    option2.BackColor = Color.Turquoise;
+                    option2.BackColor = Color.MediumTurquoise;
                     option2Lable.BackColor = Color.Plum;
-                    storyoutput.BackColor = Color.Turquoise;
+                    storyoutput.BackColor = Color.MediumTurquoise;
 
                     imageBox.Image = Properties.Resources.happy_birthday;
                     sp = new SoundPlayer(Properties.Resources.fireworksindistance);
@@ -131,11 +154,11 @@ namespace The_birthday_problem
                     option1Lable.Text = "Go with them anyways";
                     option2Lable.Text = "Go home";
 
-                    option1.BackColor = Color.Turquoise;
+                    option1.BackColor = Color.MediumTurquoise;
                     option1Lable.BackColor = Color.Plum;
-                    option2.BackColor = Color.Turquoise;
+                    option2.BackColor = Color.MediumTurquoise;
                     option2Lable.BackColor = Color.Plum;
-                    storyoutput.BackColor = Color.Turquoise;
+                    storyoutput.BackColor = Color.MediumTurquoise;
 
                     imageBox.Image = Properties.Resources.fair_pic;
                     sp = new SoundPlayer(Properties.Resources.fair_background_noise);
@@ -159,9 +182,9 @@ namespace The_birthday_problem
                     break;
 
                 case 4:
-                    storyoutput.Text = "You go to the fair and they all leave you behind. Would you like to play again?";
-                    option1Lable.Text = "Yes";
-                    option2Lable.Text = "No";
+                    storyoutput.Text = "You go to the fair and they all leave you behind. do you go home or call your brother";
+                    option1Lable.Text = "go home";
+                    option2Lable.Text = "call your brother";
 
                     option1.BackColor = Color.LightGray;
                     option1Lable.BackColor = Color.DarkGray;
@@ -179,11 +202,11 @@ namespace The_birthday_problem
                     option1Lable.Text = "Answer her call";
                     option2Lable.Text = "Ignore her call";
 
-                    option1.BackColor = Color.Turquoise;
+                    option1.BackColor = Color.MediumTurquoise;
                     option1Lable.BackColor = Color.Plum;
-                    option2.BackColor = Color.Turquoise;
+                    option2.BackColor = Color.MediumTurquoise;
                     option2Lable.BackColor = Color.Plum;
-                    storyoutput.BackColor = Color.Turquoise;
+                    storyoutput.BackColor = Color.MediumTurquoise;
 
                     imageBox.Image = Properties.Resources.phone_ringing;
                     sp = new SoundPlayer(Properties.Resources.ring);
@@ -195,11 +218,11 @@ namespace The_birthday_problem
                     option1Lable.Text = "Lie and say you were just outside";
                     option2Lable.Text = "Tell the truth";
 
-                    option1.BackColor = Color.Turquoise;
+                    option1.BackColor = Color.MediumTurquoise;
                     option1Lable.BackColor = Color.Plum;
-                    option2.BackColor = Color.Turquoise;
+                    option2.BackColor = Color.MediumTurquoise;
                     option2Lable.BackColor = Color.Plum;
-                    storyoutput.BackColor = Color.Turquoise;
+                    storyoutput.BackColor = Color.MediumTurquoise;
 
                     imageBox.Image = Properties.Resources.house;
 
@@ -212,11 +235,11 @@ namespace The_birthday_problem
                     option1Lable.Text = "Yes";
                     option2Lable.Text = "No";
 
-                    option1.BackColor = Color.Turquoise;
+                    option1.BackColor = Color.MediumTurquoise;
                     option1Lable.BackColor = Color.Plum;
-                    option2.BackColor = Color.Turquoise;
+                    option2.BackColor = Color.MediumTurquoise;
                     option2Lable.BackColor = Color.Plum;
-                    storyoutput.BackColor = Color.Turquoise;
+                    storyoutput.BackColor = Color.MediumTurquoise;
 
                     imageBox.Image = Properties.Resources.happy_birthday;
                     sp = new SoundPlayer(Properties.Resources.fireworksindistance);
@@ -260,11 +283,11 @@ namespace The_birthday_problem
                     option1Lable.Text = "Go home";
                     option2Lable.Text = "Ignore her and stay ";
 
-                    option1.BackColor = Color.Turquoise;
+                    option1.BackColor = Color.MediumTurquoise;
                     option1Lable.BackColor = Color.Plum;
-                    option2.BackColor = Color.Turquoise;
+                    option2.BackColor = Color.MediumTurquoise;
                     option2Lable.BackColor = Color.Plum;
-                    storyoutput.BackColor = Color.Turquoise;
+                    storyoutput.BackColor = Color.MediumTurquoise;
 
                     imageBox.Image = Properties.Resources.house;
                     sp = new SoundPlayer(Properties.Resources.uhoh);
@@ -292,11 +315,11 @@ namespace The_birthday_problem
                     option1Lable.Text = "Yes";
                     option2Lable.Text = "No";
 
-                    option1.BackColor = Color.Turquoise;
+                    option1.BackColor = Color.MediumTurquoise;
                     option1Lable.BackColor = Color.Plum;
-                    option2.BackColor = Color.Turquoise;
+                    option2.BackColor = Color.MediumTurquoise;
                     option2Lable.BackColor = Color.Plum;
-                    storyoutput.BackColor = Color.Turquoise;
+                    storyoutput.BackColor = Color.MediumTurquoise;
 
                     imageBox.Image = Properties.Resources.present;
                     break;
@@ -316,15 +339,78 @@ namespace The_birthday_problem
                     sp = new SoundPlayer(Properties.Resources.aww);
                     sp.Play();
                     break;
+                 case 14:
+                    storyoutput.Text = "your brother tells you to come home";
+                    option1Lable.Text = "go home";
+                    option2Lable.Text = "stay";
 
+                    option1.BackColor = Color.MediumTurquoise;
+                    option1Lable.BackColor = Color.Plum;
+                    option2.BackColor = Color.MediumTurquoise;
+                    option2Lable.BackColor = Color.Plum;
+                    storyoutput.BackColor = Color.MediumTurquoise;
+
+                    imageBox.Image = Properties.Resources.house;
+                    sp = new SoundPlayer(Properties.Resources.uhoh);
+                    sp.Play();
+
+
+                    break;
+                case 15:
+                    storyoutput.Text = "your brother meets you at the door and tells you to come with him";
+                    option1Lable.Text = "go with him";
+                    option2Lable.Text = "ignore him";
+                    option1.BackColor = Color.MediumTurquoise;
+                    option1Lable.BackColor = Color.Plum;
+                    option2.BackColor = Color.MediumTurquoise;
+                    option2Lable.BackColor = Color.Plum;
+                    storyoutput.BackColor = Color.MediumTurquoise;
+
+                    imageBox.Image = Properties.Resources.house;
+                    sp = new SoundPlayer(Properties.Resources.uhoh);
+                    sp.Play();
+
+                    break;
+
+                case 16:
+                    storyoutput.Text = "your brother is refusing to talk to you. would you like to play again ";
+                    option1Lable.Text = "yes";
+                    option2Lable.Text = "no";
+                    option1.BackColor = Color.LightGray;
+                    option1Lable.BackColor = Color.DarkGray;
+                    option2.BackColor = Color.LightGray;
+                    option2Lable.BackColor = Color.DarkGray;
+                    storyoutput.BackColor = Color.DarkGray;
+
+                    imageBox.Image = Properties.Resources.sadbirthday;
+                    sp = new SoundPlayer(Properties.Resources.aww);
+                    sp.Play();
+
+                    break;
+                case 17:
+                    storyoutput.Text = "you missed the surprise party and your brother is mad at you would you like to play again?";
+                    option1Lable.Text = "no";
+                    option2Lable.Text = "Yes";
+
+                    option1.BackColor = Color.LightGray;
+                    option1Lable.BackColor = Color.DarkGray;
+                    option2.BackColor = Color.LightGray;
+                    option2Lable.BackColor = Color.DarkGray;
+                    storyoutput.BackColor = Color.DarkGray;
+
+                    imageBox.Image = Properties.Resources.sadbirthday;
+                    sp = new SoundPlayer(Properties.Resources.aww);
+                    sp.Play();
+
+                    break;
                 case 99:
                     storyoutput.Text = "Thank you for playing";
 
-                    option1.BackColor = Color.Turquoise;
+                    option1.BackColor = Color.MediumTurquoise;
                     option1Lable.BackColor = Color.Plum;
-                    option2.BackColor = Color.Turquoise;
+                    option2.BackColor = Color.MediumTurquoise;
                     option2Lable.BackColor = Color.Plum;
-                    storyoutput.BackColor = Color.Turquoise;
+                    storyoutput.BackColor = Color.MediumTurquoise;
 
                     imageBox.Image = Properties.Resources.thankyou;
                     sp = new SoundPlayer(Properties.Resources.fireworksindistance);
@@ -345,7 +431,7 @@ namespace The_birthday_problem
             if (page == 1)
             {
                 page = 3;
-         
+
             }
             else if (page == 3)
             {
@@ -355,7 +441,15 @@ namespace The_birthday_problem
             {
                 page = 6;
             }
-           else if (page == 4)
+            else if (page == 4)
+            {
+                page = 14;
+            }
+            else if (page == 14)
+            {
+                page = 16;
+            }
+            else if (page == 16)
             {
                 page = 99;
             }
@@ -392,13 +486,25 @@ namespace The_birthday_problem
                 {
                     page = 7;
                 }
-                
+
             }
-            else if(page == 8)
+            else if (page == 8)
             {
                 page = 99;
             }
             else if (page == 7)
+            {
+                page = 99;
+            }
+            else if (page == 15)
+            {
+                page = 17;
+            }
+            else if (page==16)
+            {
+                page = 99;
+            }
+            else if (page == 17)
             {
                 page = 99;
             }
@@ -413,11 +519,11 @@ namespace The_birthday_problem
                     option1Lable.Text = "Plan something with your freinds";
                     option2Lable.Text = "Stay home";
 
-                    option1.BackColor = Color.Turquoise;
+                    option1.BackColor = Color.MediumTurquoise;
                     option1Lable.BackColor = Color.Plum;
-                    option2.BackColor = Color.Turquoise;
+                    option2.BackColor = Color.MediumTurquoise;
                     option2Lable.BackColor = Color.Plum;
-                    storyoutput.BackColor = Color.Turquoise;
+                    storyoutput.BackColor = Color.MediumTurquoise;
 
                     imageBox.Image = Properties.Resources.happy_birthday;
                     sp = new SoundPlayer(Properties.Resources.fireworksindistance);
@@ -429,11 +535,11 @@ namespace The_birthday_problem
                     option1Lable.Text = "Go with them anyways";
                     option2Lable.Text = "Go home";
 
-                    option1.BackColor = Color.Turquoise;
+                    option1.BackColor = Color.MediumTurquoise;
                     option1Lable.BackColor = Color.Plum;
-                    option2.BackColor = Color.Turquoise;
+                    option2.BackColor = Color.MediumTurquoise;
                     option2Lable.BackColor = Color.Plum;
-                    storyoutput.BackColor = Color.Turquoise;
+                    storyoutput.BackColor = Color.MediumTurquoise;
 
                     imageBox.Image = Properties.Resources.fair_pic;
                     sp = new SoundPlayer(Properties.Resources.fair_background_noise);
@@ -457,9 +563,9 @@ namespace The_birthday_problem
                     break;
 
                 case 4:
-                    storyoutput.Text = "You go to the fair and they all leave you behind. Would you like to play again?";
-                    option1Lable.Text = "Yes";
-                    option2Lable.Text = "No";
+                    storyoutput.Text = "You go to the fair and they all leave you behind. do you go home or call your brother";
+                    option1Lable.Text = "go home";
+                    option2Lable.Text = "call your brother";
 
                     option1.BackColor = Color.LightGray;
                     option1Lable.BackColor = Color.DarkGray;
@@ -477,11 +583,11 @@ namespace The_birthday_problem
                     option1Lable.Text = "Answer her call";
                     option2Lable.Text = "Ignore her call";
 
-                    option1.BackColor = Color.Turquoise;
+                    option1.BackColor = Color.MediumTurquoise;
                     option1Lable.BackColor = Color.Plum;
-                    option2.BackColor = Color.Turquoise;
+                    option2.BackColor = Color.MediumTurquoise;
                     option2Lable.BackColor = Color.Plum;
-                    storyoutput.BackColor = Color.Turquoise;
+                    storyoutput.BackColor = Color.MediumTurquoise;
 
                     imageBox.Image = Properties.Resources.phone_ringing;
                     sp = new SoundPlayer(Properties.Resources.ring);
@@ -493,11 +599,11 @@ namespace The_birthday_problem
                     option1Lable.Text = "Lie and say you were just outside";
                     option2Lable.Text = "Tell the truth";
 
-                    option1.BackColor = Color.Turquoise;
+                    option1.BackColor = Color.MediumTurquoise;
                     option1Lable.BackColor = Color.Plum;
-                    option2.BackColor = Color.Turquoise;
+                    option2.BackColor = Color.MediumTurquoise;
                     option2Lable.BackColor = Color.Plum;
-                    storyoutput.BackColor = Color.Turquoise;
+                    storyoutput.BackColor = Color.MediumTurquoise;
 
                     imageBox.Image = Properties.Resources.house;
 
@@ -510,11 +616,11 @@ namespace The_birthday_problem
                     option1Lable.Text = "Yes";
                     option2Lable.Text = "No";
 
-                    option1.BackColor = Color.Turquoise;
+                    option1.BackColor = Color.MediumTurquoise;
                     option1Lable.BackColor = Color.Plum;
-                    option2.BackColor = Color.Turquoise;
+                    option2.BackColor = Color.MediumTurquoise;
                     option2Lable.BackColor = Color.Plum;
-                    storyoutput.BackColor = Color.Turquoise;
+                    storyoutput.BackColor = Color.MediumTurquoise;
 
                     imageBox.Image = Properties.Resources.happy_birthday;
                     sp = new SoundPlayer(Properties.Resources.fireworksindistance);
@@ -558,11 +664,11 @@ namespace The_birthday_problem
                     option1Lable.Text = "Go home";
                     option2Lable.Text = "Ignore her and stay ";
 
-                    option1.BackColor = Color.Turquoise;
+                    option1.BackColor = Color.MediumTurquoise;
                     option1Lable.BackColor = Color.Plum;
-                    option2.BackColor = Color.Turquoise;
+                    option2.BackColor = Color.MediumTurquoise;
                     option2Lable.BackColor = Color.Plum;
-                    storyoutput.BackColor = Color.Turquoise;
+                    storyoutput.BackColor = Color.MediumTurquoise;
 
                     imageBox.Image = Properties.Resources.house;
                     sp = new SoundPlayer(Properties.Resources.uhoh);
@@ -590,11 +696,11 @@ namespace The_birthday_problem
                     option1Lable.Text = "Yes";
                     option2Lable.Text = "No";
 
-                    option1.BackColor = Color.Turquoise;
+                    option1.BackColor = Color.MediumTurquoise;
                     option1Lable.BackColor = Color.Plum;
-                    option2.BackColor = Color.Turquoise;
+                    option2.BackColor = Color.MediumTurquoise;
                     option2Lable.BackColor = Color.Plum;
-                    storyoutput.BackColor = Color.Turquoise;
+                    storyoutput.BackColor = Color.MediumTurquoise;
 
                     imageBox.Image = Properties.Resources.present;
                     break;
@@ -614,15 +720,78 @@ namespace The_birthday_problem
                     sp = new SoundPlayer(Properties.Resources.aww);
                     sp.Play();
                     break;
+                case 14:
+                    storyoutput.Text = "your brother tells you to come home";
+                    option1Lable.Text = "go home";
+                    option2Lable.Text = "stay";
 
+                    option1.BackColor = Color.MediumTurquoise;
+                    option1Lable.BackColor = Color.Plum;
+                    option2.BackColor = Color.MediumTurquoise;
+                    option2Lable.BackColor = Color.Plum;
+                    storyoutput.BackColor = Color.MediumTurquoise;
+
+                    imageBox.Image = Properties.Resources.house;
+                    sp = new SoundPlayer(Properties.Resources.uhoh);
+                    sp.Play();
+
+
+                    break;
+                case 15:
+                    storyoutput.Text = "your brother meets you at the door and tells you to come with him";
+                    option1Lable.Text = "go with him";
+                    option2Lable.Text = "ignore him";
+                    option1.BackColor = Color.MediumTurquoise;
+                    option1Lable.BackColor = Color.Plum;
+                    option2.BackColor = Color.MediumTurquoise;
+                    option2Lable.BackColor = Color.Plum;
+                    storyoutput.BackColor = Color.MediumTurquoise;
+
+                    imageBox.Image = Properties.Resources.house;
+                    sp = new SoundPlayer(Properties.Resources.uhoh);
+                    sp.Play();
+
+                    break;
+
+                case 16:
+                    storyoutput.Text = "your brother is refusing to talk to you. would you like to play again ";
+                    option1Lable.Text = "yes";
+                    option2Lable.Text = "no";
+                    option1.BackColor = Color.LightGray;
+                    option1Lable.BackColor = Color.DarkGray;
+                    option2.BackColor = Color.LightGray;
+                    option2Lable.BackColor = Color.DarkGray;
+                    storyoutput.BackColor = Color.DarkGray;
+
+                    imageBox.Image = Properties.Resources.sadbirthday;
+                    sp = new SoundPlayer(Properties.Resources.aww);
+                    sp.Play();
+
+                    break;
+                case 17:
+                    storyoutput.Text = "you missed the surprise party and your brother is mad at you would you like to play again?";
+                    option1Lable.Text = "no";
+                    option2Lable.Text = "Yes";
+
+                    option1.BackColor = Color.LightGray;
+                    option1Lable.BackColor = Color.DarkGray;
+                    option2.BackColor = Color.LightGray;
+                    option2Lable.BackColor = Color.DarkGray;
+                    storyoutput.BackColor = Color.DarkGray;
+
+                    imageBox.Image = Properties.Resources.sadbirthday;
+                    sp = new SoundPlayer(Properties.Resources.aww);
+                    sp.Play();
+
+                    break;
                 case 99:
                     storyoutput.Text = "Thank you for playing";
 
-                    option1.BackColor = Color.Turquoise;
+                    option1.BackColor = Color.MediumTurquoise;
                     option1Lable.BackColor = Color.Plum;
-                    option2.BackColor = Color.Turquoise;
+                    option2.BackColor = Color.MediumTurquoise;
                     option2Lable.BackColor = Color.Plum;
-                    storyoutput.BackColor = Color.Turquoise;
+                    storyoutput.BackColor = Color.MediumTurquoise;
 
                     imageBox.Image = Properties.Resources.thankyou;
                     sp = new SoundPlayer(Properties.Resources.fireworksindistance);
@@ -634,6 +803,11 @@ namespace The_birthday_problem
                 default:
                     break;
             }
+            
+
+        
+                  
+            
         }
             
                

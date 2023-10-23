@@ -40,7 +40,7 @@
             // 
             // storyoutput
             // 
-            this.storyoutput.BackColor = System.Drawing.Color.Turquoise;
+            this.storyoutput.BackColor = System.Drawing.Color.MediumTurquoise;
             this.storyoutput.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.storyoutput.Location = new System.Drawing.Point(0, -1);
             this.storyoutput.Name = "storyoutput";
@@ -50,7 +50,7 @@
             // 
             // option1
             // 
-            this.option1.BackColor = System.Drawing.Color.Turquoise;
+            this.option1.BackColor = System.Drawing.Color.MediumTurquoise;
             this.option1.Font = new System.Drawing.Font("Mistral", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.option1.Location = new System.Drawing.Point(483, 136);
             this.option1.Name = "option1";
@@ -62,7 +62,7 @@
             // 
             // option2
             // 
-            this.option2.BackColor = System.Drawing.Color.Turquoise;
+            this.option2.BackColor = System.Drawing.Color.MediumTurquoise;
             this.option2.Font = new System.Drawing.Font("Mistral", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.option2.Location = new System.Drawing.Point(483, 288);
             this.option2.Name = "option2";
@@ -108,7 +108,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.option2Lable);
             this.Controls.Add(this.option1Lable);
